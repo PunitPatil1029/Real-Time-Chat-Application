@@ -1,7 +1,7 @@
 # Real-Time Chat Application
 
 ## Project Overview
-A Python-based Real-Time Chat Application that allows multiple users to communicate with each other instantly over a network.
+A Python-based Real-Time Chat Application that allows multiple users to communicate instantly over a network.
 
 ## Features
 - User Registration and Login
@@ -25,33 +25,30 @@ A Python-based Real-Time Chat Application that allows multiple users to communic
 ## Project Structure
 ```text
 Chat_Application/
-│
 ├── server.py
 ├── client.py
+├── main.py
 ├── database.py
 ├── security.py
+├── test_gui.py
 ├── README.md
-├── .gitignore
-└── chat.db
+└── .gitignore
 ```
 
 ## How to Run
 
-### 1. Install Python
-Install Python 3 on your computer.
-
-### 2. Run the Server
+### 1. Start the Server
 ```bash
 python server.py
 ```
 
-### 3. Run the Client
+### 2. Start the Client
 Open another terminal and run:
 ```bash
 python client.py
 ```
 
-### 4. Login or Register
+### 3. Register or Login
 Create a new account or log in using an existing account.
 
 ## Database
