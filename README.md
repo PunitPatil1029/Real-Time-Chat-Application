@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-A Python-based Real-Time Chat Application that allows multiple users to communicate instantly over a network.
+A Python-based Real-Time Chat Application that allows multiple users to communicate instantly over a network using client-server architecture.
 
 ## Features
 
@@ -14,6 +14,7 @@ A Python-based Real-Time Chat Application that allows multiple users to communic
 - SQLite Database Integration
 - Tkinter Graphical User Interface
 - Client-Server Communication using Python Sockets
+- Multi-threading Support
 
 ## Technologies Used
 
@@ -28,23 +29,46 @@ A Python-based Real-Time Chat Application that allows multiple users to communic
 ## Project Structure
 
 ```text
-Chat_Application/
+Real-Time-Chat-Application/
 ├── server.py
 ├── client.py
 ├── main.py
 ├── database.py
 ├── security.py
 ├── test_gui.py
-├── screenshots/
-│   ├── login.png
-│   └── chat.png
+├── chat.png.png
+├── login.py.png
 ├── README.md
 └── .gitignore
 ```
 
+## Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/PunitPatil1029/Real-Time-Chat-Application.git
+```
+
+### 2. Open Project Folder
+
+```bash
+cd Real-Time-Chat-Application
+```
+
+### 3. Install Required Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Note: Make sure the required Python libraries are installed. Tkinter and SQLite3 are included with most standard Python installations.
+
 ## How to Run
 
 ### 1. Start the Server
+
+Open the first terminal and run:
 
 ```bash
 python server.py
@@ -68,22 +92,31 @@ The application uses SQLite to store user information and chat messages.
 
 ## Security
 
-Passwords are protected using PBKDF2-HMAC-SHA256 hashing.
+Passwords are protected using PBKDF2-HMAC-SHA256 hashing to improve password security.
 
 ## Screenshots
 
 ### Login Screen
 
-![Login Screen](screenshots/login.png)
+![Login Screen](login.py.png)
 
 ### Chat Window
 
-![Chat Window](screenshots/chat.png)
+![Chat Window](chat.png.png)
 
 ## Project Purpose
 
-This project demonstrates Python GUI development, socket programming, database management, and real-time client-server communication.
+This project demonstrates Python GUI development, socket programming, database management, secure authentication, and real-time client-server communication.
+
+## Future Improvements
+
+- Online User Status
+- Group Chat Functionality
+- File Sharing
+- Improved User Interface
 
 ## Author
 
 **Punit Patil**
+
+GitHub: [PunitPatil1029](https://github.com/PunitPatil1029)
